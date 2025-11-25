@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --main-color: #0070f3;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  user-select: none;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+::selection {
+  background-color: var(--main-color);
+  color: #ffffff;
+}
+
+.from-left {
+  animation: fromLeft 0.5s;
+}
+
+@keyframes fromLeft {
+  0% {
+    transform: translateX(-150%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.from-right {
+  animation: fromRight 0.5s;
+}
+
+@keyframes fromRight {
+  0% {
+    transform: translateX(150%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.from-bottom {
+  animation: fromBottom 0.5s;
+}
+
+@keyframes fromBottom {
+  0% {
+    transform: translateY(150%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.from-top {
+  animation: fromTop 0.5s;
+}
+
+@keyframes fromTop {
+  0% {
+    transform: translateY(-150%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.image_gradient {
+  mask-image: linear-gradient(-90deg, rgba(0, 0, 0, 0.692) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+::-webkit-scrollbar {
+  width: 0.3rem;
+  height: 0.3rem;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+  border-radius: 0.5rem;
+  cursor: grab;
+  transition: all 0.2s;
+}
+
+::-webkit-scrollbar-thumb:active {
+  cursor: grabbing;
+  background: #0051b3;
+}
+
+nextjs-portal {
+  display: none;
+}
+
+/* Animations */
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Glow effects */
+.glow {
+  box-shadow: 0 0 15px var(--main-color);
+}
+
+.text-glow {
+  text-shadow: 0 0 10px var(--main-color);
+}
+
+/* Glass morphism */
+.glass {
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+

@@ -1,0 +1,247 @@
+[
+  {
+    "_id": "65f3facc254c8120b4c734cd",
+    "roundsData": [
+      {
+        "Index": 0,
+        "Winner": "Negro 123",
+        "Duration": 1710488170,
+        "History": {
+          "Negro 123": {
+            "User": [
+              {
+                "Discord": "maxxam-123",
+                "Kills": 1,
+                "Deaths": 0,
+                "Damage": 100,
+                "Headshots": 1,
+                "DamageGivenList": {
+                  "maxxam-321": 400
+                },
+                "DamageTakenList": {},
+                "Played": true,
+                "Kicked": false,
+                "Crashed": false,
+                "CrashedCount": 0
+              }
+            ],
+            "Teams": {
+              "Score": 1,
+              "Timeouts": 0,
+              "Flawless": true
+            }
+          },
+          "Negro 321": {
+            "User": [
+              {
+                "Discord": "maxxam-321",
+                "Kills": 0,
+                "Deaths": 1,
+                "Damage": 0,
+                "Headshots": 0,
+                "DamageGivenList": {},
+                "DamageTakenList": {
+                  "maxxam-123": 400
+                },
+                "Played": true,
+                "Kicked": false,
+                "Crashed": false,
+                "CrashedCount": 0
+              }
+            ],
+            "Teams": {
+              "Score": 0,
+              "Timeouts": 0,
+              "Flawless": false
+            }
+          }
+        }
+      },
+      {
+        "Index": 1,
+        "Winner": "Negro 123",
+        "Duration": 1710488242,
+        "History": {
+          "Negro 123": {
+            "User": [
+              {
+                "Discord": "maxxam-123",
+                "Kills": 1,
+                "Deaths": 0,
+                "Damage": 100,
+                "Headshots": 1,
+                "DamageGivenList": {
+                  "maxxam-321": 400
+                },
+                "DamageTakenList": {},
+                "Played": true,
+                "Kicked": false,
+                "Crashed": false,
+                "CrashedCount": 0
+              }
+            ],
+            "Teams": {
+              "Score": 2,
+              "Timeouts": 0,
+              "Flawless": true
+            }
+          },
+          "Negro 321": {
+            "User": [
+              {
+                "Discord": "maxxam-321",
+                "Kills": 0,
+                "Deaths": 1,
+                "Damage": 0,
+                "Headshots": 0,
+                "DamageGivenList": {},
+                "DamageTakenList": {
+                  "maxxam-123": 400
+                },
+                "Played": true,
+                "Kicked": false,
+                "Crashed": false,
+                "CrashedCount": 0
+              }
+            ],
+            "Teams": {
+              "Score": 0,
+              "Timeouts": 0,
+              "Flawless": false
+            }
+          }
+        }
+      },
+      {
+        "Index": 2,
+        "Winner": "Negro 123",
+        "Duration": 1710488256,
+        "History": {
+          "Negro 123": {
+            "User": [
+              {
+                "Discord": "maxxam-123",
+                "Kills": 1,
+                "Deaths": 0,
+                "Damage": 100,
+                "Headshots": 1,
+                "DamageGivenList": {
+                  "maxxam-321": 400
+                },
+                "DamageTakenList": {},
+                "Played": true,
+                "Kicked": false,
+                "Crashed": false,
+                "CrashedCount": 0
+              }
+            ],
+            "Teams": {
+              "Score": 3,
+              "Timeouts": 0,
+              "Flawless": true
+            }
+          },
+          "Negro 321": {
+            "User": [
+              {
+                "Discord": "maxxam-321",
+                "Kills": 0,
+                "Deaths": 1,
+                "Damage": 0,
+                "Headshots": 0,
+                "DamageGivenList": {},
+                "DamageTakenList": {
+                  "maxxam-123": 400
+                },
+                "Played": true,
+                "Kicked": false,
+                "Crashed": false,
+                "CrashedCount": 0
+              }
+            ],
+            "Teams": {
+              "Score": 0,
+              "Timeouts": 0,
+              "Flawless": false
+            }
+          }
+        }
+      },
+      {
+        "Index": 3,
+        "Winner": "Negro 123",
+        "Duration": 1710488266,
+        "History": {
+          "FML 1": {
+            "User": [
+              {
+                "Discord": "707698980234067988",
+                "Kills": 1,
+                "Deaths": 0,
+                "Damage": 100,
+                "Headshots": 1,
+                "DamageGivenList": {
+                  "maxxam-321": 400
+                },
+                "DamageTakenList": {},
+                "Played": true,
+                "Kicked": false,
+                "Crashed": false,
+                "CrashedCount": 0
+              }
+            ],
+            "Teams": {
+              "Score": 4,
+              "Timeouts": 0,
+              "Flawless": true
+            }
+          },
+          "Negro 321": {
+            "User": [
+              {
+                "Discord": "maxxam-321",
+                "Kills": 0,
+                "Deaths": 1,
+                "Damage": 0,
+                "Headshots": 0,
+                "DamageGivenList": {},
+                "DamageTakenList": {
+                  "maxxam-123": 400
+                },
+                "Played": true,
+                "Kicked": false,
+                "Crashed": false,
+                "CrashedCount": 0
+              }
+            ],
+            "Teams": {
+              "Score": 0,
+              "Timeouts": 0,
+              "Flawless": false
+            }
+          }
+        }
+      }
+    ],
+    "matchData": {
+      "Id": "0-115",
+      "Type": 0,
+      "Teams": 2,
+      "Duration": 132,
+      "Date": 1710489444
+    },
+    "teamsData": [
+      {
+        "Score": 4,
+        "Name": "FML 1",
+        "Timeouts": 0
+      },
+      {
+        "Score": 0,
+        "Name": "FML 2",
+        "Timeouts": 0
+      }
+    ]
+  }
+]
+
